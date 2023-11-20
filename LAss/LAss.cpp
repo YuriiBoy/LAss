@@ -8,7 +8,8 @@
 
 // Deskriptors
 HWND hList2, hList3, hList4;
-HWND hButton1, hButton2, hButton3, hButton4;
+HWND hButton1, hButton2, hButton3, hButton4, hButton5;
+HWND hEdit1, hEdit2;
 
 // Global Variables:
 HINSTANCE hInst;                                // current instance
@@ -164,6 +165,9 @@ INT_PTR CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
             hButton2 = GetDlgItem(hDlg, IDC_BUTTON2);
             hButton3 = GetDlgItem(hDlg, IDC_BUTTON3);
             hButton4 = GetDlgItem(hDlg, IDC_BUTTON4);
+            hButton5 = GetDlgItem(hDlg, IDC_BUTTON5);
+            hEdit1 = GetDlgItem(hDlg, IDC_EDIT1);
+            hEdit2 = GetDlgItem(hDlg, IDC_EDIT2);
         }
         return (INT_PTR)TRUE;
 
